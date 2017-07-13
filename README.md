@@ -29,7 +29,7 @@ Visualizing public influence from the media, specifically about the Korean TV sh
 
 
 ## 한국어 버전
-tvN에서 방송중인 미식 토크쇼 프로그램 "수요미식회"의 방송출현이 식당에 주는 영향력을 분석하는 시스템
+tvN에서 방송중인 미식 토크쇼 프로그램 "수요미식회"의 방송출현이 식당에 주는 영향력을 분석한 다음 이를 시각화한 프로젝트
 
 ### 항목 설명
 |항목 | 설명(한글) |
