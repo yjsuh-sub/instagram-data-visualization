@@ -204,16 +204,22 @@ def save(dic, name='insta_final', path=getcwd()):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) > 0:
+    path2 = ''
+    lenth = len(sys.argv)
+    if lenth > 2:
+        path2 = sys.argv[3]
+    elif lenth > 1:
+        name = sys.argv[2]
+    elif lenth > 0:
         path = sys.argv[1]
-        if len(sys.argv) > 1:
-            name = sys.argv[2]
     else:
         path = getcwd()
+        
     dic = dataframe(path)
     irs(dic)
     timezone(dic)
     add_wh(dic)
     add_location(dic)
-    save(dic)
+    if path2:
+        save(dic, path=path2)
 
